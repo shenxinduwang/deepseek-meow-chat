@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers 静态资源部署配置（纯静态站，无 Worker 脚本）
+  "name": "deepseek-meow-chat",
+  "compatibility_date": "2026-08-30",
+  "assets": {
+    "directory": "./",
+    "html_handling": "auto-trailing-slash"
+  }
+}
